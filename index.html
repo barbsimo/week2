@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other      head content must come *after* these tags -->
+      <title>Responsive Web Design</title>
+      <!-- Bootstrap -->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <h1>Responsive Web Design Intro</h1>
+        
+        <p>
+            Responsive web design is building a web site that looks good and works well on all browsers and all devices. Users have a variety of devices and screen sizes. Responsively designed web sites appear readable, easy to use, and attractive no matter the size of the screen it’s viewed from. If we don’t design sites considering these differences in viewers we will lose customers. Research shows people prefer to shop from well-designed responsive web sites. Some issues considered important to RWD are: fluid grids, flexible images, and media queries. Grids can adapt to screen size, shifting columns to fit appropriately. A 3 column layout can move to a 2 column layout. For smaller screen widths images should resize appropriately without becoming distorted or overcoming the page. Use media queries to discern size of screen. A first rule of thumb when designing web sites is to start with a design for a smaller screened device (i.e. mobile phone) then adapt for a larger screen. 
+        </p>
+      
+        <form>
+          <fieldset>
+            <label>What are your web site concerns:
+              <input type="text" name="concerns" required>
+            </label>
+          </fieldset>
+          
+          <fieldset>
+            <label> What is primary purpose of web site?
+              <select name="purpose" required>
+                <option value="">Choose</option>
+                <option value="inform">Inform</option>  
+                <option value="sales">Sales</option>
+                <option value="love">Spread love</option> 
+              </select>
+            </label>
+          </fieldset>
+          
+          <fieldset>
+            <legend>
+              What is most important for your web site?
+            </legend>
+            <label>Appearance
+              <input type="radio" name="important" value="looks">
+            </label>
+            <label>Functionality
+              <input type="radio" name="important" value="function">
+            </label>
+          </fieldset>
+    
+          <fieldset>
+            <legend>
+              What type of devices to your clients use?
+            </legend>
+            <label> Desktop / Laptop
+              <input type="checkbox" name="device" value="laptop">
+            </label>
+            <label> Tablet
+              <input type="checkbox" name="device" value="tablet">
+            </label>
+            <label> Mobile
+              <input type="checkbox" name="device" value="mobile">
+            </label>
+          </fieldset>
+      
+          <input type="submit" value="Send" name="submit">
+        </form>
+      
+    </body>
+</html>
+        
